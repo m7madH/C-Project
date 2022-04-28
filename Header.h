@@ -14,7 +14,7 @@
 
 typedef unsigned char uint8;
 
-//uint8 count = 0; SHOULD BE DEFINED IN MAIN
+//uint8 count = 0; extern uint8 count; SHOULD BE DEFINED IN MAIN
 
 struct node
 {
@@ -29,7 +29,7 @@ struct node
 	struct node *next;
 	struct node *prev;
 };
-//struct node *head = NULL;  //Head of the list   SHOULD BE DEFINED IN MAIN
+//struct node *head = NULL; extern struct node *head;  //Head of the list   SHOULD BE DEFINED IN MAIN
 /***************PROTOTYPES***************/
 bool SDB_IsFull(void);
 bool SDB_GetUsedSize(void);
