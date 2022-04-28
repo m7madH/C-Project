@@ -11,7 +11,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "Struct.c"
 
 typedef unsigned char uint8;
 
