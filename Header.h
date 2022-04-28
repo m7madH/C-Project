@@ -29,7 +29,7 @@ struct node
 	struct node *next;
 	struct node *prev;
 };
-struct node *head;  //Head of the list
+struct node *head = NULL;  //Head of the list
 /***************PROTOTYPES***************/
 bool SDB_IsFull(void);
 bool SDB_GetUsedSize(void);
